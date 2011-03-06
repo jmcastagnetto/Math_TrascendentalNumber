@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<package packagerversion="1.4.0a9" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Math_TrascendentalNumber</name>
+ <uri>http://www.castagnetto.com/pear/Math_TrascendentalNumber-0.1.0</uri>
+ <summary>Calculates PI and E to arbitrary precision.</summary>
+ <description>Calculates PI and E (the natural logarithm base number) to an arbitrary
+number of decimal places.</description>
+ <lead>
+  <name>Jesus M. Castagnetto</name>
+  <user>jmcastagnetto</user>
+  <email>jmcastagnetto@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2005-03-28</date>
+ <time>15:26:21</time>
+ <version>
+  <release>0.1.0</release>
+  <api>0.1.0</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.example.com">PHP</license>
+ <notes>Initial release of code.</notes>
+ <contents>
+  <dir name="/">
+   <file baseinstalldir="Math" md5sum="48994b9d005b45daf6ace7b10dd24392" name="doc/example/ex_e.php" role="doc" />
+   <file baseinstalldir="Math" md5sum="07091c9ecfc8a28731d781d6eb48f004" name="doc/example/ex_pi.php" role="doc" />
+   <file baseinstalldir="Math" md5sum="db103509366dea0b0b1691b4a3852bd9" name="TrascendentalNumber/Common.php" role="php" />
+   <file baseinstalldir="Math" md5sum="83855491b57e53e8176bf6b48bc11f88" name="TrascendentalNumber/E.php" role="php" />
+   <file baseinstalldir="Math" md5sum="b8d52618738d2cae542a03e77da7e920" name="TrascendentalNumber/PI.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.0.0</min>
+    <max>6.0.0</max>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a1</min>
+   </pearinstaller>
+   <extension>
+    <name>bcmath</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release />
+    <api />
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2005-03-28</date>
+   <license uri="http://www.example.com">PHP</license>
+   <notes>no release notes</notes>
+  </release>
+ </changelog>
+</package>
